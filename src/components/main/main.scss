@@ -1,0 +1,104 @@
+.wrapper {
+  padding: 40px;
+}
+
+ul.characterUl {
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: repeat(3, 0.13fr);
+  gap: 30px;
+}
+
+ul.comicsUl {
+  list-style-type: none;
+  margin-top: 49px;
+  display: grid;
+  grid-template-columns: repeat(4, 0.15fr);
+  gap: 30px;
+}
+
+.content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.select-info {
+  margin-left: 25px;
+  width: 425px;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.select-info-contain {
+  padding: 25px;
+}
+
+.button-loadMore {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  button {
+    border: none;
+    background-color: #9f0013;
+    width: 170px;
+    height: 38px;
+    margin: 0 250px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.bgAsset {
+  position: absolute;
+  top: 1100px;
+  right: 0px;
+}
+
+.skeleton {
+  margin-top: 20px;
+}
+
+.select-info-contain-choosed {
+  padding: 25px;
+}
+
+.character-info-choosed {
+  display: flex;
+  margin-bottom: 15px;
+  .block-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+
+    h3 {
+      margin-bottom: 30px;
+    }
+
+    a {
+      width: 107px;
+      height: 38px;
+      border: 1px solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .homepage-btn {
+      background-color: #9f0013;
+      color: white;
+    }
+
+    .wiki-btn {
+      background-color: #5c5c5c;
+      color: white;
+    }
+  }
+}
+
+.banner {
+  width: 1100px;
+  height: 100px;
+}
